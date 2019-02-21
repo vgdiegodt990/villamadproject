@@ -1,0 +1,23 @@
+/* UNI */ 
+body {
+    background-color:#051976;
+    margin:0;
+    padding:0;
+}
+
+/* HEADER */
+#topfont {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    color:#9BCADE;
+}
+
+/* CENTER PIECE */
+#mid {
+    background-color:#549DCA;
+}
+
+/* FOOTER */
+#footattri {
+    background-color:#69E1DC;
+}
