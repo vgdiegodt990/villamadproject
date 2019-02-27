@@ -1,6 +1,7 @@
 //REQUIREMENTS
 const express = require("express"),
-      app     = express();
+      app     = express(),
+      nodemon = require("nodemon");
 
 //SETTING AND USING
 app.set("view engine", "ejs");

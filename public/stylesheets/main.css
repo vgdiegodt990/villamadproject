@@ -1,23 +1,35 @@
 /* UNI */ 
 body {
-    background-color:#051976;
+    background-color:#080a29;
     margin:0;
     padding:0;
 }
 
-/* HEADER */
+/* HEADER (doesnt include nav b/c not suppose to be the same color) */
 #topfont {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.7em;
     color:#9BCADE;
 }
 
+#headercolor {
+    background-color:#080a29;
+}
+
 /* CENTER PIECE */
 #mid {
-    background-color:#549DCA;
+    background-color:#9bcade;
 }
 
 /* FOOTER */
 #footattri {
-    background-color:#69E1DC;
+    background-color:#cadde6;
+}
+
+/* BOX-SHADOW FOR NAV */
+#navboxshadow {
+    -webkit-box-shadow: -5px 3px 4px -5px rgba(0,0,0,1);
+    -moz-box-shadow: -5px 3px 4px -5px rgba(0,0,0,1);
+    box-shadow: -5px 3px 4px -5px rgba(0,0,0,1);
+    background-color:#9bcade;
 }
