@@ -5,6 +5,10 @@ body {
     padding:0;
 }
 
+h1{
+    margin:0;
+}
+
 /* HEADER (doesnt include nav b/c not suppose to be the same color) */
 #topfont {
     font-family: 'Times New Roman', Times, serif;
@@ -19,7 +23,11 @@ body {
 /* CENTER PIECE */
 #mid {
     background-color:#9bcade;
+    padding:inherit;
+    border:inherit;
+    margin:inherit;
 }
+/* NOTE: THERE IS A MARGIN ON THE CONTENT SEPERATOR IN HEAD.EJS*/
 
 /* FOOTER */
 #footattri {
@@ -37,11 +45,15 @@ body {
 /*  CAROUSEL */
 .carousel-inner {
     width:100%;
-    max-height:25em !important;
+    max-height:25em!important;
 }
 
 .carouselimg {
     height:25em;
+}
+
+.carousel-caption{
+    background:rgba(0, 0, 0, 0.377);
 }
 
 /* RESPONSIVE CAROUSEL */
@@ -63,3 +75,13 @@ body {
     }
 
 }
+
+/* LANDING CONTENT  */
+#wearesalesian {
+    text-align:center;
+}
+
+/* CARD */
+.card {
+    background:rgb(94, 170, 214);
+} 
