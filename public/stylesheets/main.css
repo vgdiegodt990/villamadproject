@@ -9,6 +9,12 @@ h1{
     margin:0;
 }
 
+#centerobj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* HEADER (doesnt include nav b/c not suppose to be the same color) */
 #topfont {
     font-family: 'Times New Roman', Times, serif;
@@ -83,5 +89,17 @@ h1{
 
 /* CARD */
 .card {
-    background:rgb(94, 170, 214);
+    background:rgb(125, 195, 238);
 } 
+
+.card-title {
+    text-align:center;
+}
+
+#downsizecards {
+    height:65%;
+    width:65%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
