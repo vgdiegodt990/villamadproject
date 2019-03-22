@@ -15,12 +15,59 @@ h1{
     align-items: center;
 }
 
+.contentfontsize {
+    font-size: 1.25rem;
+    font-weight:400;
+}
+
+.h1headers {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 992px) {
+    .h1headers {
+        font-size:2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contentfontsize {
+        font-size:1rem;
+    }
+    
+    .h1headers {
+        font-size:1.4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contentfontsize {
+        font-size: 0.75rem;
+    }
+
+    .h1headers {
+        font-size:1.2rem;
+    }
+}
+
 /* HEADER (doesnt include nav b/c not suppose to be the same color) */
 #topfont {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.7em;
     color:#9BCADE;
 }
+
+    @media (max-width: 992px) {
+        #topfont {
+            font-size:1.4em;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #topfont {
+            font-size:1.1em;
+        }
+    }
 
 #headercolor {
     background-color:#080a29;
@@ -46,6 +93,17 @@ h1{
     -moz-box-shadow: -5px 3px 4px -5px rgba(0,0,0,1);
     box-shadow: -5px 3px 4px -5px rgba(0,0,0,1);
     background-color:#9bcade;
+    font-size:1.2em;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 992px) { 
+    #navboxshadow {
+        font-size:0.9em;
+    }
 }
 
 /*  CAROUSEL */
@@ -74,17 +132,23 @@ h1{
 
 @media only screen and (max-width: 479px) {
     .carousel-inner {
-        max-height:10em;
+        max-height:12.5em;
     }
     .carouselimg {
-        height:10em;
+        height:12.5em;
     }
 
 }
 
 /* LANDING CONTENT  */
-#wearesalesian {
+#contentwrapper {
     text-align:center;
+    padding:1.25rem;
+}
+
+#contentimages {
+    width:75%;
+    height:75;
 }
 
 /* CARD */
@@ -103,3 +167,20 @@ h1{
     margin-left:auto;
     margin-right:auto;
 }
+
+#btn4info {
+    width:50%;
+}
+
+@media (max-width: 992px){
+    #downsizecards {
+        width:auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #btn4info {
+        font-size:0.58em;
+        width:43%;
+    }
+ }

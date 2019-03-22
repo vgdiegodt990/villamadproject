@@ -20,15 +20,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <img class="img-fluid" src="https://static.wixstatic.com/media/6b05ff_41a6735972184772bc6f9992200ec3d0.jpg/v1/fill/w_149,h_171,al_c,q_80,usm_0.66_1.00_0.01/6b05ff_41a6735972184772bc6f9992200ec3d0.webp">
-                    <div class="d-inline">Villa Madonna Catholic School</div>
+                    <img class="img-fluid rounded mx-auto d-block" src="https://static.wixstatic.com/media/6b05ff_41a6735972184772bc6f9992200ec3d0.jpg/v1/fill/w_149,h_171,al_c,q_80,usm_0.66_1.00_0.01/6b05ff_41a6735972184772bc6f9992200ec3d0.webp">
+                    <div class="text-center pt-2">Villa Madonna Catholic School</div>
                 </div>
                 <!-- ANY ANNOUNCEMENTS WILL BE PUT HERE (ex: theater, applications) -->
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-6 col-sm-12 col-xs-12 align-self-center">
                     <div class="card text-center" style="width: 100%;" id="headercolor">
                         <div class="card-body">
-                        <h5 class="card-title"><strong><em>EVENTS</em></strong></h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h2 class="card-title"><strong>EVENTS</strong></h2>
+                        <p class="card-text">
+                            NOW ACCEPTING APPLICATIONS:
+                            <a href="mailto:eagles@villamadonnaschool.com?subject=2019-2020 Registration Information" target="_self" data-content="eagles@villamadonnaschool.com" data-type="mail" title="" style="width:70px;height:70px" id="comp-jn90yuxylink" class="ImageButton_1link">
+                            Click here to register via email.
+                            </a>
+                        </p>
                         </div>
                     </div>
                 </div>
@@ -36,55 +41,66 @@
         </div>
     </div>
     <div id="mid">
-        <div id="navboxshadow">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Why Villa?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Admissions</a>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <button type="button" class="btn" id="mid"><a class="nav-link" href="#">Extracurriculars</a></button>
-                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split" id="mid" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Athletics</a>
-                            <a class="dropdown-item" href="#">Fine Arts</a>
-                            <a class="dropdown-item" href="#">Theater Department</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group">
-                        <button type="button" class="btn" id="mid"><a class="nav-link" href="#">Academics</a></button>
-                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split" id="mid" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Technology</a>
-                            <a class="dropdown-item" href="#">Honors Society - NJHS</a>
-                            <a class="dropdown-item" href="#">Preschool - Grade 1</a>
-                            <a class="dropdown-item" href="#">Grades 2-4</a>
-                            <a class="dropdown-item" href="#">Grades 5-8</a>
-                            <a class="dropdown-item" href="#">Student Support & Guidance</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Villa Family</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Alumni</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-md sticky-top" id="navboxshadow">
+                <!-- MX-AUTO MAKES THE HAMBURGER MENU CENTERED -->
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapse_target">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Why Villa?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Admissions</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#extracurcs">
+                                Extracurriculars
+                            <!-- CARET ADDS THE LITTLE DROPDOWN ICON-->
+                                <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="extracurcs">
+                                <a class="dropdown-item">Athletics</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Fine Arts</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Theater Department</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#academs">
+                                Academics
+                                <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="academs">
+                                <a class="dropdown-item">Technology</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Honors Society - NJHS</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Preschool - Grade 1</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Grades 2-4</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Grades 5-8</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item">Student Supports & Guidance</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Villa Family</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Alumni</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
         <div class="container p-3" id="content">
