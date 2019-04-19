@@ -16,6 +16,19 @@ app.get("/about-us", function(req, res){
     res.render("about-us");
 });
 
+app.get("/testimonials", function(req, res){
+    res.render("testimonials");
+});
+
+app.get("/admissions", function(req, res){
+    res.render("admissions");
+});
+
+//STAR
+app.get("*", function(req, res){
+    res.render("star");
+})
+
 app.listen(3000, function(){
     console.log("Server is running.");
 });
