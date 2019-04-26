@@ -24,6 +24,42 @@ app.get("/admissions", function(req, res){
     res.render("admissions");
 });
 
+app.get("/athletics", function(req, res){
+    res.render("athletics");
+});
+
+app.get("/fine-arts", function(req, res){
+    res.render("fine-arts");
+});
+
+app.get("/theater-department", function(req, res){
+    res.render("theater-department");
+});
+
+app.get("/technology", function(req, res){
+    res.render("technology");
+})
+
+app.get("/njhs", function(req, res){
+    res.render("njhs");
+});
+
+app.get("/student-support", function(req, res){
+    res.render("student-support");
+});
+
+app.get("/lowergrades", function(req, res){
+    res.render("lowergrades");
+});
+
+app.get("/middlegrades", function(req, res){
+    res.render("middlegrades");
+});
+
+app.get("/latergrades", function(req, res){
+    res.render("latergrades");
+});
+
 //STAR
 app.get("*", function(req, res){
     res.render("star");

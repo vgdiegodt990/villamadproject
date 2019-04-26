@@ -26,10 +26,12 @@ h1 {
 
 .h1headers {
     font-size: 2.5rem;
+    text-align:center;
 }
 
 .lesserheader {
     font-size:2.2rem;
+    text-align:center;
 }
 
 @media (max-width: 992px) {
@@ -157,15 +159,32 @@ h1 {
 
 }
 
+/* SMALL CAROUSEL FOR FINE ARTS */
+#controlsmallcarousel {
+    width:70%;
+}
+ 
 /* LANDING CONTENT  */
 #contentwrapper {
-    text-align:center;
+    text-align:left;
     padding:1.25rem;
 }
 
 #contentimages {
     width:75%;
     height:75%;
+}
+
+#smallcontentimages {
+    width:25%;
+    height:25%;
+}
+
+@media (max-width: 768px) {
+    #smallcontentimages {
+        width:45%;
+        height:45%;
+    }
 }
 
 /* CARD */
@@ -228,6 +247,28 @@ h1 {
          font-size:0.6rem;
      }
  }
+
+/* ADMISSIONS PAGE */
+#textleft {
+    text-align:left;
+}
+
+/* IFRAME */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height:0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
  /* STAR PAGE */
  #star {
