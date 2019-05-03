@@ -175,6 +175,12 @@ h1 {
     height:75%;
 }
 
+    /* SPECIAL EXCEPTION */
+    #contentheightimage {
+        width:75%;
+        height:0%;
+    }
+
 #smallcontentimages {
     width:25%;
     height:25%;
@@ -269,6 +275,15 @@ h1 {
     height: 100%;
 }
 
+/* GRID */ 
+#childselector {
+	display:grid;
+	grid-template-columns:50% 50%;
+	grid-column-gap:10px;
+}
+#childselector > div {
+	padding:0.5em;
+}
 
  /* STAR PAGE */
  #star {

@@ -60,6 +60,14 @@ app.get("/latergrades", function(req, res){
     res.render("latergrades");
 });
 
+app.get("/villa-family", function(req, res){
+    res.render("villa-family");
+});
+
+app.get("/alumni", function(req, res){
+    res.render("alumni");
+});
+
 //STAR
 app.get("*", function(req, res){
     res.render("star");
