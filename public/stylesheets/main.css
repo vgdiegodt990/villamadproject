@@ -69,6 +69,10 @@ h1 {
     }
 }
 
+.fancyfont {
+    font-family: 'Sofia', cursive; 
+}
+
 /* HEADER (doesnt include nav b/c not suppose to be the same color) */
 #topfont {
     font-family: 'Times New Roman', Times, serif;
@@ -225,6 +229,9 @@ h1 {
         font-size:0.58em;
         width:43%;
     }
+    #familycards {
+        font-size:0.58em;
+    }
  }
 
  /* TESTIMONIALS */
@@ -273,6 +280,15 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* THEATER */
+#theater {
+    background-image: url("https://static.wixstatic.com/media/6b05ff_79c674e57de74013adb914b25ac38d53~mv2.jpg/v1/fill/w_413,h_620,al_c,q_80/6b05ff_79c674e57de74013adb914b25ac38d53~mv2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f2cf1d;
+    font-style: italic;
 }
 
 /* GRID */ 
