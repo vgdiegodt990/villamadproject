@@ -284,11 +284,19 @@ h1 {
 
 /* THEATER */
 #theater {
-    background-image: url("https://static.wixstatic.com/media/6b05ff_79c674e57de74013adb914b25ac38d53~mv2.jpg/v1/fill/w_413,h_620,al_c,q_80/6b05ff_79c674e57de74013adb914b25ac38d53~mv2.webp");
+    /* had to put curtain in the same directory */
+    background-image: url("curtain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:#f2cf1d;
     font-style: italic;
+}
+
+/* LISTENING FOR GOD (img on villa-family) */
+#listeninggod {
+    width: 75%;
+    height: 75%;
+    border-radius: 30px;
 }
 
 /* GRID */ 
@@ -299,6 +307,51 @@ h1 {
 }
 #childselector > div {
 	padding:0.5em;
+}
+
+/* ANIMATING DROPDOWN */
+@media (min-width: 300px) {
+  .animate {
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
 }
 
  /* STAR PAGE */
